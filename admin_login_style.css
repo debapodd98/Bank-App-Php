@@ -1,0 +1,107 @@
+@import url("fonts.css");
+
+body {
+    
+    background-image: url(OnlineBanking_CyberImage_CaseStudy.jpg);
+    height: 20px;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 40px;
+    
+    color: azure;
+    width:180px;
+    
+    
+    font-stretch: semi-condensed;
+}
+h2 {
+    font-family: Roboto-Regular;
+    color: green;
+}
+
+b {
+    color: red;
+    font-family: Roboto-Regular;
+    margin-left: 10px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    font-family: Roboto-Regular;
+    color: royalblue;
+    font-size: 30px;
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 1px;
+    border: 0;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+   
+}
+
+/* Set a style for all buttons */
+button {
+    font-family: Roboto-Regular;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    background-color: #f44336;
+}
+
+.flex-container-1 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#00000079;
+    opacity: 0.8;
+    
+    border-radius: 30px;
+    border:4px solid black;
+}
+
+.flex-item {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.flex-container-2 {
+    display: -webkit-flex;
+    display: flex;
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+
